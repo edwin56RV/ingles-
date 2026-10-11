@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz 15, Rox 💖</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #fff0f5 0%, #ffe4ec 40%, #fce4ec 100%);
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 15px;
+            color: #4a2c3a;
+        }
+
+        .card {
+            background: white;
+            max-width: 720px;
+            width: 100%;
+            border-radius: 24px;
+            box-shadow: 0 20px 50px rgba(180, 80, 120, 0.15);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #e91e63, #f48fb1);
+            color: white;
+            text-align: center;
+            padding: 40px 30px 35px;
+            position: relative;
+        }
+
+        .header::after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+            right: 0;
+            height: 40px;
+            background: white;
+            border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+        }
+
+        .header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.4rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+
+        .content {
+            padding: 50px 40px 45px;
+            line-height: 1.75;
+            font-size: 1.05rem;
+        }
+
+        .content p {
+            margin-bottom: 1.3em;
+        }
+
+        .photos {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            margin: 25px 0 30px;
+            align-items: center;
+        }
+
+        .photos img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+            object-fit: cover;
+        }
+
+        .photo-caption {
+            text-align: center;
+            font-size: 0.92rem;
+            color: #ad1457;
+            margin-top: -8px;
+            font-style: italic;
+        }
+
+        .signature {
+            margin-top: 40px;
+            text-align: right;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: #c2185b;
+        }
+
+        .hearts {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-top: 25px;
+            letter-spacing: 8px;
+        }
+
+        .footer {
+            background: #fff5f8;
+            text-align: center;
+            padding: 18px;
+            font-size: 0.9rem;
+            color: #ad1457;
+            border-top: 1px solid #f8bbd0;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.9rem;
+            }
+            .content {
+                padding: 40px 25px 35px;
+                font-size: 1rem;
+            }
+            .photos img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <h1>Feliz 15, Rox</h1>
+            <p>Un día muy especial para ti ✨</p>
+        </div>
+
+        <div class="content">
+            <p>Hola, Rox. Espero que estés muy bien. Ya que hoy es un día tan especial para ti porque estás cumpliendo tus 15 años, venía a felicitarte.</p>
+
+            <p>Más que nada, quiero agradecerte porque, gracias a ti, me hiciste cambiar mucho. En verdad te agradezco que me hayas perdonado el error más grande que había cometido. De verdad, muchas gracias.</p>
+
+            <p>También quería recordar los momentos más bonitos que viví contigo, como cuando te conocí por primera vez y hablamos un poquito. Todavía me acuerdo de que ese día fui a ver a tu hermano y ahí estabas tú, una niña muy simpática y divertida (y también Celia).</p>
+
+            <p>Pero el momento más bonito fue cuando nos pasamos nuestros números en la escuela y empezamos a hablar más seguido y a conocernos. Me acuerdo de que dos días antes de ser novios fuimos a una excursión de la escuela, a la que fue tu mami. Ese día te quería decir lo que sentía por ti, pero no pude porque tu mami me ponía nervioso (de por sí soy bien nervioso, jaja). Me acuerdo cuando me subí a un juego junto con tu mami y Omar, ya que tú te nos adelantaste.</p>
+
+            <p>Fue un 19 de octubre cuando te vi en la escuela y por fin pude decirte que me gustabas, aunque sí me puse muy nervioso. Ese día me regalaste una pulsera y llegué bien feliz a mi casita. Eres una niña bastante linda.</p>
+
+            <p>También me acuerdo cuando me hacías mis «disque chongos» ¡y eso que ni pelo tenía! Jaja. Pero ahí me encariñé mucho contigo y siempre me dejaba. Sin duda fuiste una novia hermosa, siempre me diste mi lugar y me demostraste que aún hay niñas que saben querer de verdad.</p>
+
+            <!-- FOTO DE LOS CHONGOS / REMOLINOS -->
+            <div class="photos">
+                <img src="chongos.jpg" alt="Los famosos chongos y remolinos">
+                <div class="photo-caption">Esos remolinos me enamoran… y no se diga de los cuernitos 😼 jaja</div>
+            </div>
+
+            <p>Siempre tendré esa espinita clavada por haberte hecho semejante cosa, de la cual en verdad me arrepiento. Pero ya me di cuenta de lo maravillosa que eres. Ahora sí que aprendí de ese error y me hiciste cambiar en ese aspecto. Siempre me disculparé por eso, ya que fue la primera y última vez que lo hice.</p>
+
+            <p>También me acuerdo de que un 14 de febrero te quería dar unas rosas, pero no sabía cómo hacerlas. Ahí me ves, tres semanas antes aprendiendo cómo hacer tus rosas de listón. En verdad te puedo jurar que has sido a la única persona a la que le he regalado rosas eternas y serás la única, porque en verdad te sigo queriendo y te amo en el fondo. Han pasado 3 años y me sigues hablando y aguantando, en verdad te quiero muchísimo. Eres alguien muy especial para mí.</p>
+
+            <!-- FOTOS DE LAS ROSAS -->
+            <div class="photos">
+                <img src="rosas-azules.jpg" alt="Ramo de rosas eternas azules">
+                <div class="photo-caption">Tus rosas eternas 💙</div>
+
+                <img src="abrazo.jpg" alt="El abrazo con las rosas">
+                <div class="photo-caption">Ese día tan especial 🫂</div>
+            </div>
+
+            <p>Bueno, ya fue mucho texto, ¿verdad? Jaja. Te dejo, disfruta mucho tu fiesta. Te quiero mucho, chaparra. 🫂</p>
+
+            <div class="signature">
+                Con mucho cariño
+            </div>
+
+            <div class="hearts">
+                💖 ✨ 🎀
+            </div>
+        </div>
+
+        <div class="footer">
+            Para Rox • Felices 15 años
+        </div>
+    </div>
+</body>
+</html>
